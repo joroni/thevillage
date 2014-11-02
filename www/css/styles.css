@@ -1,0 +1,321 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  outline: none;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/** HACK **/
+
+/*.ui-header .ui-title, .ui-footer .ui-title {
+    display: block;
+    font-size: 1em;
+    margin: 0 30%;
+    min-height: 1.1em;
+    outline: 0 none !important;
+    overflow: hidden;
+    padding: 0.7em 0;
+    text-align: center;
+	font-weight: 100 !important;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}*/
+
+.ui-header .ui-title, .ui-footer .ui-title {
+    display: block;
+    font-size: 1em;
+    font-weight: 100 !important;
+    margin-left: 265px;
+    min-height: 1.1em;
+    outline: 0 none !important;
+    overflow: hidden;
+    padding: 0.7em 0;
+    text-align: left;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.jqm-demos .jqm-content {
+    height: 90%;
+    left: 265px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 0;
+    position: fixed;
+    width: 80%;
+}
+
+/*.jqm-demos .jqm-content.jqm-fullwidth {
+    float: none;
+	margin:0 auto;
+    padding-left: 10px;
+    padding-right: 15%;
+    width: 99.1%;
+}
+*/
+.ui-listview > li {
+    display: block;
+    overflow: visible;
+    padding-left: 2em;
+    padding-right: 1em;
+    position: relative;
+}
+
+.jqm-demos .jqm-navmenu-panel {
+   /* background: none repeat scroll 0 0 rgba(0, 0, 0, 0);*/
+  	background: url("../images/panel-lining.png") repeat-y scroll 106px 0 #000;
+    box-shadow: none;
+    left: 0;
+    position: fixed !important;
+    transform: none !important;
+    transition: none 0s ease 0s !important;
+    visibility: visible;
+    width: 250px !important;
+	z-index:1003;
+}
+
+.ui-header .ui-title {
+    display: block;
+    font-size: 2em !important;
+    font-weight: 100 !important;
+    margin-left: 265px;
+    min-height: 1em;
+    outline: 0 none !important;
+    overflow: hidden;
+    padding: 0.1em 0 0 0.5em;
+    text-align: left;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+h2.logo {
+	text-align:center;
+	margin-bottom:40px;
+}
+
+.ui-page-active div.jqm-content [data-ajax-warning] {
+	display:none;
+}
+
+.jqm-demos .jqm-content.jqm-fullwidth {
+    float: left;
+    margin: 0 auto;
+    padding-left: 10px;
+    padding-right: 0;
+    width: 100%;
+}
+
+.ui-listview > .ui-li-static, .ui-listview > .ui-li-divider, .ui-listview > li > a.ui-btn, .ui-listview > li.ui-last-child  {
+    border-style: solid;
+    border-width: 0px !important;
+}
+
+.ui-header-fixed, .ui-footer-fixed {
+    left: 0;
+    position: fixed;
+    right: 0;
+    width: 100%;
+    z-index: 1002;
+	background:rgba(255,255,255,0.6)  !important;
+	border: none !important;
+}
+
+div#nav-panel.jqm-navmenu-panel.ui-panel.ui-panel-position-left.ui-panel-display-overlay.ui-panel-closed.ui-body-a.ui-panel-fixed.ui-panel-animate div.ui-panel-inner ul.jqm-list.ui-alt-icon.ui-nodisc-icon.ui-listview li a.ui-btn  {
+	color:#fff;
+}
+
+.ui-panel-display-overlay {
+    z-index: 1010;
+}
+
+.jqm-demos .jqm-navmenu-panel .ui-panel-inner {
+    margin-bottom: 3em;
+    margin-top: 1em;
+}
+
+
+#jquery-lightbox {
+    left: 0;
+    line-height: 0;
+    position: absolute;
+    text-align: center;
+    top: 20px !important;
+    width: 100%;
+    z-index: 19000;
+}
+
+/* if portrait mode is detected, rotate the entire site -90 degrees to hint rotating to landscape */
+@media (orientation: portrait) {
+body {
+-webkit-transform: rotate(-90deg);
+-moz-transform: rotate(-90deg);
+-o-transform: rotate(-90deg);
+-ms-transform: rotate(-90deg);
+transform: rotate(-90deg);
+}
+}
+/** /HACK **/
+html { height: 100%; 
+font-family: 'Open Sans Condensed', sans-serif;
+    height: 99.9%;
+	}
+/*body { 
+  font-family: 'Lato', Calibri, Arial, sans-serif; 
+  color: #343434; 
+  font-size: 62.5%; 
+  line-height: 1; 
+  background: #cbdbf0 url('../images/bg.png'); /* source: http://subtlepatterns.com/triangles-2/
+} */
+*/
+br { display: block; line-height: 2.6em; } 
+
+::selection { background: #cedef2; color: #212121; }
+::-moz-selection { background: #cedef2; color: #212121; }
+::-webkit-selection { background: #cedef2; color: #212121; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
+ol, ul { list-style: none; }
+
+blockquote, q { quotes: none; }
+blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
+strong { font-weight: bold; } 
+
+table { border-collapse: collapse; border-spacing: 0; }
+img { border: 0; max-width: 100%; }
+
+a { color: #a991c7; }
+a:hover { color: #b9a6d1; }
+
+h1 {
+  font-size: 3.4em;
+  line-height: 1.75em;
+  margin-bottom: 20px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  color: #515151;
+  text-align: right;
+ /* text-shadow: 0 2px white, 0 3px #666;  */
+}
+
+p { display: block; font-size: 1.35em; line-height: 1.1em; margin-bottom: 15px; }
+
+
+/* page structure */
+#wrapper {
+  display: block;
+  max-width: 750px;
+  min-width: 300px;
+  margin: 0 auto;
+  margin-top: 45px;
+}
+
+#content {
+  display: block;
+  background: #fff;
+  margin: 0 20px;
+  padding: 14px 18px;
+  margin-bottom: 30px;
+  -webkit-box-shadow: 1px 3px 8px 0 rgba(38,38,38,0.6);
+  -moz-box-shadow: 1px 3px 8px 0 rgba(38,38,38,0.6);
+  box-shadow: 1px 3px 8px 0 rgba(38,38,38,0.6);
+}
+
+
+/* gallery display */
+.photos {
+    display: block;
+    width: 99%;}
+
+.photos ul {
+  list-style: none;
+
+}
+
+/*.photos ul li { display: inline; }*/
+.photos ul li {
+    display: inline;
+    float: left;
+    line-height: 0.5em;
+    margin-bottom: 40px;
+    max-width: 250px;
+    text-align: center;
+}
+
+.photos ul li a {
+  display: block;
+  float: left;
+  padding: 4px;
+  margin-right: 10px;
+  margin-bottom: 7px;
+  opacity: 1;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+.photos ul li a:hover {
+  opacity: 1.0;
+}
+
+.photos ul li a img {
+    border: 6px solid transparent;
+    box-shadow: 0 2px 5px #dedede;
+}
+
+div.ui-panel-inner ul.ui-listview li a {
+	font-family: Open Sans,serif;
+    font-size: 1em;
+    font-weight: 100;
+}
+
+/* footer */
+.ui-footer-fixed{
+    display: none !important;
+}
+
+#credits {
+  display: block;
+  padding: 5px 6px;
+  text-align: center;
+}
+
+#credits p {
+  font-size: 1.2em;
+  color: #666;
+  text-shadow: 0 1px 0 #fff;
+}
+
+#credits p a {
+  color: #798fad;
+}
+#credits p a:hover {
+  color: #4d6b94;
+}
+
+/* CSS Clearfix */
+.clearfix:before, .clearfix:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+
+.clearfix { zoom: 1; } /* IE 6/7 */
+
+
+/* lightbox hacks */
+#lightbox-container-image-data-box {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+/** uncomment to remove lightbox captions 
+ *
+#lightbox-container-image-data-box {
+  display: none !important;
+} 
+ *
+**/
