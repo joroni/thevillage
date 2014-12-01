@@ -1,0 +1,372 @@
+div#nav-panel.jqm-navmenu-panel ul.jqm-list. li, div#nav-panel.jqm-navmenu-panel ul.jqm-list. li a{
+list-style-type:none !important;
+}
+h1#prodName {
+color: #fff;
+font-family: "Roboto",sans-serif;
+font-size: 2em !important;
+font-weight: 700;
+margin-bottom: 2px;
+text-align: right;
+text-shadow: 1px 1px 4px #333;
+width: 100%;
+}
+div#lightbox-container-image img#lightbox-image {
+}
+#lightbox-image-details-currentNumber, .lb-number{
+display: none !important;
+}
+.description {
+font-family:'Roboto', sans-serif;
+font-weight:400;
+color:#fff;
+font-size:2.5em;
+font-size:120%;
+width:100%;
+text-align:right;
+float:left;
+line-height:1.5em;
+text-shadow:1px 1px 4px #333;
+}
+.lb-data {
+font-family:'Roboto', sans-serif;
+font-weight:400;
+color: #ccc;
+float: right;
+padding: 0 4px;
+}
+span.lb-caption div#priceBox {
+float: right;
+margin-top: 10px;
+}
+.lb-data .lb-details {
+bottom: 125px;
+font-size: 120%;
+line-height: 1.1em;
+color:#fff;
+padding: 10px;
+position: relative !important;
+text-align: left;
+width: auto !important;
+text-shadow:1px 1px 4px #333;
+}
+.lb-data .lb-details {
+line-height: 1.1em;
+text-align: right;
+width: 100%;
+}
+div#priceBox p.item_price {
+font-family:'Roboto', sans-serif;
+font-weight:100;
+font-size:2em !important;
+text-shadow:1px 1px 4px #333;
+color:#fff;
+font-weight:100;
+}
+div.item-prod {
+background-color: #fff;
+border-radius: 0 !important;
+display: inline-block;
+float: left;
+line-height: 0;
+margin: 1.5rem -1rem 1.2rem 1.2rem;
+padding: 1px;
+transition: background-color 0.1s ease-out 0s;
+width: 240px;
+}
+.prodName {
+    color: #333;
+    float: left;
+    font-family: "Roboto",sans-serif;
+    font-size: 1.5em;
+    margin-top: 1.2em;
+    text-align: center;
+    width: 100%;
+}
+.example-image {
+border-radius: 0 !important;
+width: 14rem !important;
+}
+.lb-outerContainer {
+background-color: white;
+border-radius: 0px !important;
+}
+
+
+.jqm-demos .jqm-content {
+    padding-top: 0.5em !important;
+}
+
+
+#wowslider-container1 {
+    box-sizing: content-box;
+    display: table;
+    font-size: 10px;
+    margin: 10px auto 39px;
+    max-height: 600px !important;
+    position: relative;
+    text-align: left;
+    width: 800px !important;
+    z-index: 90;
+}
+
+div.ui-header.ui-bar-inherit.ui-header-fixed.slidedown {
+	background:none !important;
+}
+
+div.image-set{
+	margin-left:-15px;
+}
+
+
+.ui-listview > .ui-li-static, .ui-listview > .ui-li-divider, .ui-listview > li > a.ui-btn {
+    display: block;
+    font-family: "Roboto",sans-serif !important;
+    font-weight: 100 !important;
+    margin: 0;
+    overflow: hidden;
+    position: relative;
+    text-align: left;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+/*
+li a.current.ui-link {
+	margin-bottom:10px;
+}
+*/
+
+/*.ui-panel-animate.ui-panel-position-left.ui-panel-display-overlay, .ui-panel-animate.ui-panel-position-left.ui-panel-display-push {
+    left: 0;
+	background:url("../img/panel-lining-400.png") repeat-y scroll -20px 0 transparent  !important;
+    transform: translate3d(-17em, 0px, 0px);
+
+	
+}*/
+
+.ui-listview, .ui-listview > li, ul.jqm-list.ui-alt-icon.ui-nodisc-icon.ui-listview li.ui-collapsible {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0 10px 0 0;
+	border-color: #333 !important;
+}
+
+
+.jqm-navmenu-panel .ui-btn:after {
+    opacity: 0;
+    transition: opacity 500ms ease 0s;
+}
+.jqm-navmenu-panel .ui-btn:after {
+    opacity: 0.4;
+}
+.ui-nodisc-icon.ui-btn:after, .ui-nodisc-icon .ui-btn:after {
+    background-color: transparent;
+}
+.ui-alt-icon.ui-btn:after, .ui-alt-icon .ui-btn:after, html .ui-alt-icon.ui-checkbox-off:after, html .ui-alt-icon.ui-radio-off:after, html .ui-alt-icon .ui-checkbox-off:after, html .ui-alt-icon .ui-radio-off:after {
+    background-color: rgba(0, 0, 0, 0);
+}
+.ui-alt-icon.ui-icon-home:after, .ui-alt-icon .ui-icon-home:after {
+    background-image: url("data:image/svg+xml;charset=US-ASCII,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22iso-8859-1%22%3F%3E%3C!DOCTYPE%20svg%20PUBLIC%20%22-%2F%2FW3C%2F%2FDTD%20SVG%201.1%2F%2FEN%22%20%22http%3A%2F%2Fwww.w3.org%2FGraphics%2FSVG%2F1.1%2FDTD%2Fsvg11.dtd%22%3E%3Csvg%20version%3D%221.1%22%20id%3D%22Layer_1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20x%3D%220px%22%20y%3D%220px%22%20%20width%3D%2214px%22%20height%3D%2214px%22%20viewBox%3D%220%200%2014%2014%22%20style%3D%22enable-background%3Anew%200%200%2014%2014%3B%22%20xml%3Aspace%3D%22preserve%22%3E%3Cpolygon%20points%3D%227%2C0%200%2C7%202%2C7%202%2C14%205%2C14%205%2C9%209%2C9%209%2C14%2012%2C14%2012%2C7%2014%2C7%20%22%2F%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3C%2Fsvg%3E");
+}
+.ui-btn-icon-right:after {
+    right: 0.5625em;
+}
+.ui-btn-icon-notext:after, .ui-btn-icon-left:after, .ui-btn-icon-right:after {
+    margin-top: -11px;
+    top: 50%;
+}
+.ui-btn-icon-left:after, .ui-btn-icon-right:after, .ui-btn-icon-top:after, .ui-btn-icon-bottom:after, .ui-btn-icon-notext:after {
+    content: "";
+    display: block;
+    height: 22px;
+    position: absolute;
+    width: 22px;
+}
+.ui-btn-icon-left:after, .ui-btn-icon-right:after, .ui-btn-icon-top:after, .ui-btn-icon-bottom:after, .ui-btn-icon-notext:after {
+    background-color: rgba(0, 0, 0, 0.3);
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-radius: 1em;
+}
+.ui-icon-home:after {
+    background-image: url("data:image/svg+xml;charset=US-ASCII,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22iso-8859-1%22%3F%3E%3C!DOCTYPE%20svg%20PUBLIC%20%22-%2F%2FW3C%2F%2FDTD%20SVG%201.1%2F%2FEN%22%20%22http%3A%2F%2Fwww.w3.org%2FGraphics%2FSVG%2F1.1%2FDTD%2Fsvg11.dtd%22%3E%3Csvg%20version%3D%221.1%22%20id%3D%22Layer_1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20x%3D%220px%22%20y%3D%220px%22%20%20width%3D%2214px%22%20height%3D%2214px%22%20viewBox%3D%220%200%2014%2014%22%20style%3D%22enable-background%3Anew%200%200%2014%2014%3B%22%20xml%3Aspace%3D%22preserve%22%3E%3Cpolygon%20fill%3D%22%23FFF%22%20points%3D%227%2C0%200%2C7%202%2C7%202%2C14%205%2C14%205%2C9%209%2C9%209%2C14%2012%2C14%2012%2C7%2014%2C7%20%22%2F%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3C%2Fsvg%3E");
+}
+.jqm-navmenu-panel .ui-collapsible + li > .ui-btn, .jqm-navmenu-panel .ui-collapsible + .ui-collapsible > .ui-collapsible-heading > .ui-btn, .jqm-navmenu-panel .ui-panel-inner > .ui-listview > li.ui-first-child .ui-btn {
+    border-top: medium none !important;
+}
+.ui-listview > li.ui-first-child, .ui-listview > li.ui-first-child > a.ui-btn {
+    border-top-left-radius: inherit;
+    border-top-right-radius: inherit;
+}
+.jqm-navmenu-panel .ui-listview .ui-btn {
+    padding-left: 12.5%;
+}
+.jqm-demos .jqm-list .ui-btn, .jqm-demos .jqm-list .ui-btn:visited, .jqm-demos .jqm-list .ui-li-divider {
+     font-family: "Roboto",sans-serif !important;
+    font-weight: 100 !important;
+    text-shadow: none !important;
+}
+.ui-listview > .ui-li-static, .ui-listview > .ui-li-divider, .ui-listview > li > a.ui-btn {
+    display: block;
+    font-family: "Roboto",sans-serif !important;
+    font-weight: 100 !important;
+    margin: 0;
+    overflow: hidden;
+    position: relative;
+    text-align: left;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.ui-listview > .ui-li-static, .ui-listview > .ui-li-divider, .ui-listview > li > a.ui-btn {
+	 border-style: solid;
+    border-width: 1px 0 0;
+    display: block;
+    margin: 0;
+    overflow: hidden;
+    position: relative;
+    text-align: left;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.ui-page-theme-a .ui-btn, html .ui-bar-a .ui-btn, html .ui-body-a .ui-btn, html body .ui-group-theme-a .ui-btn, html head + body .ui-btn.ui-btn-a, .ui-page-theme-a .ui-btn:visited, html .ui-bar-a .ui-btn:visited, html .ui-body-a .ui-btn:visited, html body .ui-group-theme-a .ui-btn:visited, html head + body .ui-btn.ui-btn-a:visited {
+  background-color: #252525 !important;
+  	
+	  /*  background-color: #000 !important;*/
+    border-color: #333 !important;
+    color: #ddd !important;
+    text-shadow: 0 1px 0 #f3f3f3;
+}
+
+.jqm-demos .jqm-navmenu-panel {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0) !important;
+    box-shadow: none;
+    clip: initial;
+    float: left;
+    height: 100%;
+    left: 0;
+    min-height: 768px;
+    position: relative;
+    transform: none !important;
+    transition: none 0s ease 0s !important;
+    visibility: visible;
+    width: 250px !important;
+}
+
+.jqm-demos .jqm-content {
+    left: 253px;
+    padding-left: 0;
+    padding-right: 20px;
+    padding-top: 0;
+    position: absolute;
+    top: -10px;
+    width: 100%;
+}
+
+.jqm-home .ui-grid-a {
+    margin: 0 auto !important;
+}
+
+
+ul.ui-listview li.ui-last-child {
+	border-width:0px !important;
+}
+
+/*.jqm-block-content {
+    background: none repeat scroll 0 0 #fff;
+    border: 1px solid #eee;
+    border-radius: 0.3125em;
+    font-family: "Roboto",sans-serif;
+    margin: 0.5em;
+    padding: 0 1em;
+	width:100%;
+}*/
+
+/*.jqm-block-content {
+    background: none repeat scroll 0 0 #fff;
+    border: 1px solid #eee;
+    border-radius: 0.3125em;
+    font-family: "Roboto",sans-serif;
+    height: 100%;
+    margin: 0.5em;
+    padding: 0 0.2em;
+    width: 100%;
+}
+*/
+
+.jqm-block-content {
+    background: none repeat scroll 0 0 #fff;
+    border: 1px solid #eee;
+    border-radius: 0.3125em;
+    font-family: "Roboto",sans-serif;
+    height: auto;
+    margin: 0.5em;
+    padding: 0 0.5em;
+    width: 700px;
+}
+
+div.ui-collapsible-content.ui-body-inherit ul.ui-listview li {
+    padding-left: 1em;
+    width: 250px;
+}
+
+.jqm-demos .jqm-navmenu-panel .ui-panel-inner {
+    margin-bottom: 3em;
+    margin-top: 0em !important;
+}
+
+/*h3.ui-collapsible-heading, h3.ui-collapsible-heading a.ui-collapsible-heading-toggle.ui-btn {
+	color:#eee !important;
+}*/
+ul.jqm-list.ui-alt-icon.ui-nodisc-icon.ui-listview li.ui-collapsible.ui-collapsible-themed-content.ui-li-static.ui-body-inherit div.ui-collapsible-content.ui-body-inherit ul.ui-listview li a.ui-btn {
+	color:#aaa !important;
+}
+.jqm-demos .jqm-header {
+    background: none repeat scroll 0 0 #fff;
+    border-bottom-color: #eee;
+    border-top: 0px solid #3eb249;
+}
+
+.ui-grid-a > .ui-block-a, .ui-grid-a > .ui-block-b {
+    float: left;
+   /* max-width: 100%;
+    width: 99.9%;*/
+	width:auto;
+}
+
+
+div.item-prod.box a img {
+	 box-shadow: 0 2px 4px #ddd;
+	  padding: 5px;
+}
+
+body.menu .ui-grid-a > .ui-block-a, body.menu .ui-grid-a > .ui-block-b {
+    position: relative;
+    width: 75%;
+}
+
+.ui-body-b, .ui-page-theme-b .ui-body-inherit, html .ui-bar-b .ui-body-inherit, html .ui-body-b .ui-body-inherit, html body .ui-group-theme-b .ui-body-inherit, html .ui-panel-page-container-b {
+    background-color: transparent;
+    border-color: #1d1d1d;
+    color: #fff;
+    text-shadow: 0 1px 0 #111;
+}
+
+div.englang {
+	float:left;
+	width:45%;
+}
+
+div.arlang {
+	float:right;
+	width:45%;
+}
+div.englang div.description, span.lb-caption div.englang div#priceBox,
+div.englang h1#prodName.name {
+	text-align:left !important;
+	float:left;
+	}
+/*.lb-nav a.lb-prev, .lb-nav a.lb-next {
+    width: 15% !important;
+	border:1px solid;
+}*/
