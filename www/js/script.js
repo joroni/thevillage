@@ -51,7 +51,7 @@ $(document).ready(function(){
 		var linkurl     = $(this).attr("href");
 		var linkhtmlurl = linkurl.substring(1, linkurl.length);
 		
-		var imgloader   = '<center style="margin-top: 30px; opacity:0.5;"><img src="img/loading.gif" alt="loading..." /></center>';
+		var imgloader   = '<center style="margin-top: 223px; opacity:0.5;"><img src="img/loading.gif" alt="loading..." /></center>';
 		
 		//closeme();
 		openme();
@@ -66,3 +66,8 @@ $(document).ready(function(){
 		setTimeout(function() { content.load(linkhtmlurl, function() { /* no callback */ }) }, 1200);
 	});
 });
+
+if (navigator.userAgent.match(/(iPad.*|iPhone.*|iPod.*);.*CPU.*OS 7_\d/i)) {
+    document.body.style.marginTop = '20px';
+    document.getElementById('ios7-statusbar-fix').style.display = 'block';
+}
